@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "workspaces": [
+      "gatsby-theme-minimal-blog",
+      "gatsby-theme-minimal-blog-core",
+      "minimal-blog"
+    ]
+  }
