@@ -20,7 +20,7 @@ const config: GatsbyConfig = {
   trailingSlash: `always`,
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `@akaikesan/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
         navigation: [
@@ -34,6 +34,7 @@ const config: GatsbyConfig = {
           },
         ],
         externalLinks: [
+          /*
           {
             name: `Bluesky`,
             url: `https://bsky.app/profile/lekoarts.de`,
@@ -42,6 +43,7 @@ const config: GatsbyConfig = {
             name: `Homepage`,
             url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
           },
+          */
         ],
       },
     },
@@ -54,7 +56,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `minimal-blog`,
         short_name: `minimal-blog`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
@@ -123,7 +125,7 @@ const config: GatsbyConfig = {
   }
 }`,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Minimal Blog`,
           },
         ],
       },

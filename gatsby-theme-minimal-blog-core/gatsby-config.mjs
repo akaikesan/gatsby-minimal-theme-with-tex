@@ -41,7 +41,7 @@ const config = (themeOptions) => {
         resolve: `gatsby-source-filesystem`,
         options: {
           name: `theme-overrides`,
-          path: `./src/@lekoarts`,
+          path: `./src/@akaikesan`,
         },
       },
       options.mdx && {

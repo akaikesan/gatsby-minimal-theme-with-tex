@@ -6,17 +6,16 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const config = (options) => ({
   siteMetadata: {
     siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteTitleAlt: `Minimal Blog - @akaikesan/gatsby-theme-minimal-blog is customized version of @lekoarts/gatsby-theme-minimal-blog`,
+    siteHeadline: `Minimal Blog`,
     siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@akaikesan`,
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog-core`,
+      resolve: `@akaikesan/gatsby-theme-minimal-blog-core`,
       options,
     },
     {

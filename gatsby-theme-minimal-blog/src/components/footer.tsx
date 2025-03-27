@@ -24,11 +24,17 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
       </div>
       <div>
+        This {` `}
+        <Link
+          aria-label="Link to the theme's GitHub repository"
+          href="https://github.com/akaikesan/gatsby-minimal-theme-with-tex"
+        >theme</Link>
+          {` `} is based on the  {` `}
         <Link
           aria-label="Link to the theme's GitHub repository"
           href="https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-minimal-blog"
         >
-          Theme
+           theme
         </Link>
         {` `}
         by

@@ -1,6 +1,6 @@
 import * as React from "react"
 import type { PageProps } from "gatsby"
-import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
+import Layout from "@akaikesan/gatsby-theme-minimal-blog/src/components/layout"
 
 const NotFound = (_props: PageProps) => (
   <Layout>
